@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="텍스트를 입력하세요." />
+
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="말하기"
+        android:textColor="#000000"
+        android:background="#80ADEF"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/button_gahyun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="가현아"
+        android:textColor="#000000"
+        android:background="#80ADEF"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/button_yeobo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="여보"
+        android:textColor="#000000"
+        android:background="#80ADEF"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/button_macaron"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="마카롱"
+        android:textColor="#000000"
+        android:background="#80ADEF"
+        android:textSize="18sp"/>
+
+    <!-- 새로운 버튼 추가 -->
+    <Button
+        android:id="@+id/button_jadu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="자두"
+        android:textColor="#000000"
+        android:background="#80ADEF"
+        android:textSize="18sp"/>
+
+    <SeekBar
+        android:id="@+id/volumeSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:max="100"/>
+</LinearLayout>
